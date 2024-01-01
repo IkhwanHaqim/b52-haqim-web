@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.text h1 {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.label-style {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.input-style {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.input-area {
+    padding: 40px;
+}
+
+.btn-submit {
+    width: 120px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 270px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.navbar-ul {
+    display: flex; 
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-1 {
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.navbar-2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.active {
+    color: green;
+}
+
+.navbar-logo {
+    width: 50px;
+}
+
+.navbar-flex-btn {
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
