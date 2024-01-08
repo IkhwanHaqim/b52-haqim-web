@@ -19,7 +19,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 360px;
 }
 
 .label-style {
@@ -38,54 +38,19 @@
 }
 
 .btn-submit {
-    width: 120px;
+    width: 100px;
     padding: 15px;
     color: white;
     background-color: green;
     border-radius: 20px;
     margin-top: 30px;
-    margin-left: 270px;
+    margin-left: 260px;
     font-size: 15px;
     cursor: pointer;
 }
 
-.navbar {
-    background-color: whitesmoke;
-    padding: 30px;
-}
-
-.navbar-ul {
-    display: flex; 
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-1 {
-    display: flex; 
-    gap: 20px; 
-    align-items: center;
-}
-
-.navbar-2 {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-.active {
-    color: green;
-}
-
-.navbar-logo {
-    width: 50px;
-}
-
-.navbar-flex-btn {
-    padding: 15px;
-    color: white;
-    background-color: black;
-    border-radius: 20px;
-    font-size: 15px;
-    text-decoration: none;
+@media only screen and (max-width: 576px) {
+    .btn-submit {
+       margin-bottom: 10px;
+    }
 }

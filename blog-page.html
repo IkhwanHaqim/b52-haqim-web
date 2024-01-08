@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>Creating Blog Page - detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/my-project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <div class="navbar-1">
+                <li>
+                    <img src="./assets/img/dumbways.png" class="navbar-logo">
+                </li>
+                <li>
+                    <a href="index.html" class="navbar-2 active">Home</a>
+                </li>
+                <li>
+                    <a href="blog-page.html" class="navbar-2">My Project</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="contact.html" class="navbar-flex-btn">Contact Me</a>
+                </li>
+                <i class="fa-solid fa-bars fa-2x" style="cursor: pointer;" id="hamburger-button" onclick="Hamburger()"></i>
+            </div>
+        </ul>
+        <div id="humberger" class="humberger-navbar-open">
+            <a class="hamburger-navbar-2" href="index.html">Home</a>
+            <a class="hamburger-navbar-2 hamburger-active" href="blog-page.html">My Project</a>
+            <a class="hamburger-navbar-2" href="contact.html">Contact</a>
+        </div>
+    </nav> 
+    <section class="container">
+        <div class="kotak">
+        <h1>ADD MY PROJECT</h1>
+        <div class="form">
+            <form onsubmit="addBlog(event)">
+                <div class="label-box">
+                    <label class="label-style" for="Name">Name</label>
+                    <input class="input-style" id="Name">
+                </div>
+                <div class="column">
+                    <div class="label-box">
+                        <label class="label-style1" for="Start Date">Start Date</label>
+                        <input type="date" class="input-style1" id="startDate" required>
+                    </div>
+                    <div class="label-box">
+                        <label class="label-style1" for="End Date">End Date</label>
+                        <input type="date" class="input-style1" id="endDate" required>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <label class="label-style2" for="message">Description</label>
+                    <textarea class="input-area" id="message"></textarea>
+                </div>
+                <div class="Technologies-box">
+                    <h3>Technologies</h3>
+                <div class="check-box">
+                    <div class="box1">
+                        <input type="checkbox" id="nodejs" value="nodejs"/> Node Js
+                    <div class="box2">
+                        <input type="checkbox" id="php" value="php"/> php
+                    </div>
+                    </div>
+                    <div class="box3">
+                        <input type="checkbox" id="apple" value="apple"/> Apple
+                    <div class="box4">
+                        <input type="checkbox" id="android" value="android"/> Android 
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <label class="Upload">Upload Image</label>
+                    <div class="input-blog-image-group">
+                        <label for="image">
+                           <P>
+                            Choose File
+                           </P>
+                            <img src="assets/img/link2.png" alt="file" />
+                        </label>
+                        <input type="file" id="image" hidden/>
+                    </div>
+                </div>
+                <button class="btn-submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    </section>
+    <div id="contents" class="card-list">
+        <!--dynamic content would be here -->
+        <div class="myproject">
+            <h1>MY PROJECT</h1>
+        </div>
+          <div id="contents-isi" class="card-container">
+           <!-- <div class="card">
+                <img src="assets/img/syntax.jpg" alt="" />
+                <h2>
+                    <a href="blog-detail.html" target="_blank">Is Coding Difficult? - 2023</a>
+                </h2>
+                <div class="duration">
+                    <p>Durasi:</p>
+                </div>
+                <p>
+                 The programming profession is a very important  profession in the increasingly 
+                 developing digital era. Programmers are the main driving force behind 
+                 the transformation of society and business.
+                </p>
+                <div class="btn-card">
+                    <button class="btn-edit">Edit</button>
+                    <button class="btn-delete">Delete</button>
+                </div>
+            </div>
+            </div>    -->
+        </div> 
+        </dynamic>
+    </div>
+    <script src="assets/js/navbar.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>

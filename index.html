@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Day 1</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style2.css">
-    <link rel="stylesheet" href="assets/css/style3.css">
+    <link rel="stylesheet" href="assets/css/index2.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
@@ -20,41 +20,51 @@
                     <a href="index.html" class="navbar-2 active">Home</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="navbar-2">My Website</a>
+                    <a href="blog-page.html" class="navbar-2">My Project</a>
                 </li>
             </div>
             <div>
                 <li>
                     <a href="contact.html" class="navbar-flex-btn">Contact Me</a>
                 </li>
+                <i class="fa-solid fa-bars fa-2x" style="cursor: pointer;" id="hamburger-button" onclick="Hamburger()"></i>
             </div>
         </ul>
+        <div id="humberger" class="humberger-navbar-open">
+            <a class="hamburger-navbar-2 hamburger-active" href="index.html">Home</a>
+            <a class="hamburger-navbar-2" href="blog-page.html">My Project</a>
+            <a class="hamburger-navbar-2" href="contact.html">Contact</a>
+        </div>
     </nav> 
-    <div class="container">
+    <section class="container">
         <div class="satu">
             <h1>Hi Welcome To My Hut</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, laborum sint exercitationem similique quod, 
-            necessitatibus ullam maxime asperiores veniam incidunt quam voluptate in sunt et doloribus nostrum labore dicta obcaecati. Lorem ipsum dolor sit amet, 
-            consectetur adipisicing elit. Ipsam vel, quam dolore illum repellendus repellat vero, sint et harum tempore qui est laudantium optio nostrum ea dolores 
-            quasi voluptate! Autem?</p>
-        <div class="satu1">
-            <button type="button" class="btn">Contact</button>
-            <a href="#" style="margin-left: 20px;">download CV</a>
-            <i data-feather="download" style="margin-left: 10px;"></i>
-        </div>
-        <div class="satu11">
-            <i data-feather="linkedin" style="margin-right: 20px;"></i>
-            <i data-feather="instagram" style="margin-right: 20px;"></i>
-            <i data-feather="facebook" style="margin-right: 20px;"></i>
-            <i data-feather="twitter" style="margin-right: 0px;"></i>  
-        </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
+               Nam, laborum sint exercitationem similique quod, 
+               necessitatibus ullam maxime asperiores veniam incidunt quam voluptate in sunt et 
+               doloribus nostrum labore dicta obcaecati. Lorem ipsum dolor sit amet, 
+               consectetur adipisicing elit. Ipsam vel, quam dolore illum repellendus repellat vero, 
+               sint et harum tempore qui est laudantium optio nostrum ea dolores 
+               quasi voluptate! Autem?</p>
+            <div class="satu1">
+                <button type="button" class="btn">Contact</button>
+                <a href="#">download CV</a>
+                <i data-feather="download"></i>
+            </div>
+            <div class="satu11">
+                <i data-feather="linkedin" style="margin-right: 20px;"></i>
+                <i data-feather="instagram" style="margin-right: 20px;"></i>
+                <i data-feather="facebook" style="margin-right: 20px;"></i>
+                <i data-feather="twitter" style="margin-right: 0px;"></i>  
+            </div>
         </div>
          <div class="dua">
             <img src="./assets/img/download.jpg" alt="">
             <h2>Ikhwan Haqim</h2>
             <p>Fullstack Developer</p>
         </div>
-    </div>
+    </section>
+    <script src="assets/js/navbar.js"></script>
     <script>
     feather.replace();
     </script>

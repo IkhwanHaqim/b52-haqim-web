@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style3.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -17,16 +19,22 @@
                     <a href="index.html" class="navbar-2 active">Home</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="navbar-2">My Website</a>
+                    <a href="blog-page.html" class="navbar-2">My Project</a>
                 </li>
             </div>
             <div>
                 <li>
                     <a href="contact.html" class="navbar-flex-btn">Contact Me</a>
                 </li>
+                <i class="fa-solid fa-bars fa-2x" style="cursor: pointer;" id="hamburger-button" onclick="Hamburger()"></i>
             </div>
         </ul>
-    </nav>
+        <div id="humberger" class="humberger-navbar-open">
+            <a class="hamburger-navbar-2" href="index.html">Home</a>
+            <a class="hamburger-navbar-2" href="blog-page.html">My Project</a>
+            <a class="hamburger-navbar-2 hamburger-active" href="contact.html">Contact</a>
+        </div>
+    </nav> 
         <div class="container">
             <div class="text">
                 <h1>GET IN TOUCH</h1>
@@ -49,7 +57,7 @@
              </div>
             </div>
         </div>
-
+        <script src="assets/js/navbar.js"></script>
         <script src="./assets/js/flex.js">
         </script>
 </body>
