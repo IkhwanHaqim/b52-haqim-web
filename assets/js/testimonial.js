@@ -14,11 +14,11 @@ class Testimonial {
         this.#author = val
     }
 
-    set author(val) {
+    set image(val) {
         this.#image = val
     }
 
-    set author(val) {
+    set content(val) {
         this.#content = val
     }
 
@@ -48,7 +48,7 @@ class Testimonial {
      "Rasanya sangat lezat saya suka!")
     const testimonial2 = new Testimonial("Kayla Ardelia", "https://images.pexels.com/photos/6800530/pexels-photo-6800530.jpeg?auto=compress&cs=tinysrgb&w=800",
      "One bite wont be enough")
-     const testimonial3 = new Testimonial("Anonymouse", "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&w=800",
+    const testimonial3 = new Testimonial("Anonymouse", "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&w=800",
      "Who Im?")
 
      const testimonials = [testimonial1, testimonial2, testimonial3]
